@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88908084221BC3BB00A3044D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88908083221BC3BB00A3044D /* AppDelegate.swift */; };
+		88908086221BC3BB00A3044D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88908085221BC3BB00A3044D /* ViewController.swift */; };
+		88908089221BC3BB00A3044D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88908087221BC3BB00A3044D /* Main.storyboard */; };
+		8890808C221BC3BB00A3044D /* GonetApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8890808A221BC3BB00A3044D /* GonetApp.xcdatamodeld */; };
+		8890808E221BC3BD00A3044D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8890808D221BC3BD00A3044D /* Assets.xcassets */; };
+		88908091221BC3BD00A3044D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8890808F221BC3BD00A3044D /* LaunchScreen.storyboard */; };
+		8890809C221BC3BD00A3044D /* GonetAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8890809B221BC3BD00A3044D /* GonetAppTests.swift */; };
+		889080A7221BC3BD00A3044D /* GonetAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889080A6221BC3BD00A3044D /* GonetAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88908098221BC3BD00A3044D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88908078221BC3BB00A3044D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8890807F221BC3BB00A3044D;
+			remoteInfo = GonetApp;
+		};
+		889080A3221BC3BD00A3044D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88908078221BC3BB00A3044D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8890807F221BC3BB00A3044D;
+			remoteInfo = GonetApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88908080221BC3BB00A3044D /* GonetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GonetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88908083221BC3BB00A3044D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88908085221BC3BB00A3044D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88908088221BC3BB00A3044D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8890808B221BC3BB00A3044D /* GonetApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GonetApp.xcdatamodel; sourceTree = "<group>"; };
+		8890808D221BC3BD00A3044D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88908090221BC3BD00A3044D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88908092221BC3BD00A3044D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88908097221BC3BD00A3044D /* GonetAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GonetAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8890809B221BC3BD00A3044D /* GonetAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GonetAppTests.swift; sourceTree = "<group>"; };
+		8890809D221BC3BD00A3044D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		889080A2221BC3BD00A3044D /* GonetAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GonetAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		889080A6221BC3BD00A3044D /* GonetAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GonetAppUITests.swift; sourceTree = "<group>"; };
+		889080A8221BC3BD00A3044D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8890807D221BC3BB00A3044D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88908094221BC3BD00A3044D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8890809F221BC3BD00A3044D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88908077221BC3BB00A3044D = {
+			isa = PBXGroup;
+			children = (
+				88908082221BC3BB00A3044D /* GonetApp */,
+				8890809A221BC3BD00A3044D /* GonetAppTests */,
+				889080A5221BC3BD00A3044D /* GonetAppUITests */,
+				88908081221BC3BB00A3044D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88908081221BC3BB00A3044D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88908080221BC3BB00A3044D /* GonetApp.app */,
+				88908097221BC3BD00A3044D /* GonetAppTests.xctest */,
+				889080A2221BC3BD00A3044D /* GonetAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88908082221BC3BB00A3044D /* GonetApp */ = {
+			isa = PBXGroup;
+			children = (
+				88908083221BC3BB00A3044D /* AppDelegate.swift */,
+				88908085221BC3BB00A3044D /* ViewController.swift */,
+				88908087221BC3BB00A3044D /* Main.storyboard */,
+				8890808D221BC3BD00A3044D /* Assets.xcassets */,
+				8890808F221BC3BD00A3044D /* LaunchScreen.storyboard */,
+				88908092221BC3BD00A3044D /* Info.plist */,
+				8890808A221BC3BB00A3044D /* GonetApp.xcdatamodeld */,
+			);
+			path = GonetApp;
+			sourceTree = "<group>";
+		};
+		8890809A221BC3BD00A3044D /* GonetAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8890809B221BC3BD00A3044D /* GonetAppTests.swift */,
+				8890809D221BC3BD00A3044D /* Info.plist */,
+			);
+			path = GonetAppTests;
+			sourceTree = "<group>";
+		};
+		889080A5221BC3BD00A3044D /* GonetAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				889080A6221BC3BD00A3044D /* GonetAppUITests.swift */,
+				889080A8221BC3BD00A3044D /* Info.plist */,
+			);
+			path = GonetAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8890807F221BC3BB00A3044D /* GonetApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 889080AB221BC3BD00A3044D /* Build configuration list for PBXNativeTarget "GonetApp" */;
+			buildPhases = (
+				8890807C221BC3BB00A3044D /* Sources */,
+				8890807D221BC3BB00A3044D /* Frameworks */,
+				8890807E221BC3BB00A3044D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GonetApp;
+			productName = GonetApp;
+			productReference = 88908080221BC3BB00A3044D /* GonetApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88908096221BC3BD00A3044D /* GonetAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 889080AE221BC3BD00A3044D /* Build configuration list for PBXNativeTarget "GonetAppTests" */;
+			buildPhases = (
+				88908093221BC3BD00A3044D /* Sources */,
+				88908094221BC3BD00A3044D /* Frameworks */,
+				88908095221BC3BD00A3044D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88908099221BC3BD00A3044D /* PBXTargetDependency */,
+			);
+			name = GonetAppTests;
+			productName = GonetAppTests;
+			productReference = 88908097221BC3BD00A3044D /* GonetAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		889080A1221BC3BD00A3044D /* GonetAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 889080B1221BC3BD00A3044D /* Build configuration list for PBXNativeTarget "GonetAppUITests" */;
+			buildPhases = (
+				8890809E221BC3BD00A3044D /* Sources */,
+				8890809F221BC3BD00A3044D /* Frameworks */,
+				889080A0221BC3BD00A3044D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				889080A4221BC3BD00A3044D /* PBXTargetDependency */,
+			);
+			name = GonetAppUITests;
+			productName = GonetAppUITests;
+			productReference = 889080A2221BC3BD00A3044D /* GonetAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88908078221BC3BB00A3044D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Gonet;
+				TargetAttributes = {
+					8890807F221BC3BB00A3044D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					88908096221BC3BD00A3044D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8890807F221BC3BB00A3044D;
+					};
+					889080A1221BC3BD00A3044D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8890807F221BC3BB00A3044D;
+					};
+				};
+			};
+			buildConfigurationList = 8890807B221BC3BB00A3044D /* Build configuration list for PBXProject "GonetApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88908077221BC3BB00A3044D;
+			productRefGroup = 88908081221BC3BB00A3044D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8890807F221BC3BB00A3044D /* GonetApp */,
+				88908096221BC3BD00A3044D /* GonetAppTests */,
+				889080A1221BC3BD00A3044D /* GonetAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8890807E221BC3BB00A3044D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88908091221BC3BD00A3044D /* LaunchScreen.storyboard in Resources */,
+				8890808E221BC3BD00A3044D /* Assets.xcassets in Resources */,
+				88908089221BC3BB00A3044D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88908095221BC3BD00A3044D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889080A0221BC3BD00A3044D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8890807C221BC3BB00A3044D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88908086221BC3BB00A3044D /* ViewController.swift in Sources */,
+				88908084221BC3BB00A3044D /* AppDelegate.swift in Sources */,
+				8890808C221BC3BB00A3044D /* GonetApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88908093221BC3BD00A3044D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8890809C221BC3BD00A3044D /* GonetAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8890809E221BC3BD00A3044D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889080A7221BC3BD00A3044D /* GonetAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88908099221BC3BD00A3044D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8890807F221BC3BB00A3044D /* GonetApp */;
+			targetProxy = 88908098221BC3BD00A3044D /* PBXContainerItemProxy */;
+		};
+		889080A4221BC3BD00A3044D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8890807F221BC3BB00A3044D /* GonetApp */;
+			targetProxy = 889080A3221BC3BD00A3044D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88908087221BC3BB00A3044D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88908088221BC3BB00A3044D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8890808F221BC3BD00A3044D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88908090221BC3BD00A3044D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		889080A9221BC3BD00A3044D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		889080AA221BC3BD00A3044D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		889080AC221BC3BD00A3044D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KAGQ44QH8;
+				INFOPLIST_FILE = GonetApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Gonet.GonetApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		889080AD221BC3BD00A3044D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KAGQ44QH8;
+				INFOPLIST_FILE = GonetApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Gonet.GonetApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		889080AF221BC3BD00A3044D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KAGQ44QH8;
+				INFOPLIST_FILE = GonetAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Gonet.GonetAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GonetApp.app/GonetApp";
+			};
+			name = Debug;
+		};
+		889080B0221BC3BD00A3044D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KAGQ44QH8;
+				INFOPLIST_FILE = GonetAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Gonet.GonetAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GonetApp.app/GonetApp";
+			};
+			name = Release;
+		};
+		889080B2221BC3BD00A3044D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KAGQ44QH8;
+				INFOPLIST_FILE = GonetAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Gonet.GonetAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GonetApp;
+			};
+			name = Debug;
+		};
+		889080B3221BC3BD00A3044D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KAGQ44QH8;
+				INFOPLIST_FILE = GonetAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Gonet.GonetAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GonetApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8890807B221BC3BB00A3044D /* Build configuration list for PBXProject "GonetApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889080A9221BC3BD00A3044D /* Debug */,
+				889080AA221BC3BD00A3044D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		889080AB221BC3BD00A3044D /* Build configuration list for PBXNativeTarget "GonetApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889080AC221BC3BD00A3044D /* Debug */,
+				889080AD221BC3BD00A3044D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		889080AE221BC3BD00A3044D /* Build configuration list for PBXNativeTarget "GonetAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889080AF221BC3BD00A3044D /* Debug */,
+				889080B0221BC3BD00A3044D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		889080B1221BC3BD00A3044D /* Build configuration list for PBXNativeTarget "GonetAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889080B2221BC3BD00A3044D /* Debug */,
+				889080B3221BC3BD00A3044D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8890808A221BC3BB00A3044D /* GonetApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8890808B221BC3BB00A3044D /* GonetApp.xcdatamodel */,
+			);
+			currentVersion = 8890808B221BC3BB00A3044D /* GonetApp.xcdatamodel */;
+			path = GonetApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 88908078221BC3BB00A3044D /* Project object */;
+}
