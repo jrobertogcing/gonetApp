@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8234B948427E698A2F90DDE8 /* Pods_GonetAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E93C7130AF804F6327EF36 /* Pods_GonetAppUITests.framework */; };
+		88632B8522239717006B0F16 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88632B8422239717006B0F16 /* HomeViewController.swift */; };
 		88908084221BC3BB00A3044D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88908083221BC3BB00A3044D /* AppDelegate.swift */; };
 		88908086221BC3BB00A3044D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88908085221BC3BB00A3044D /* ViewController.swift */; };
 		88908089221BC3BB00A3044D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88908087221BC3BB00A3044D /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 		0A2E476798897CA15EF324FE /* Pods-GonetAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GonetAppTests.debug.xcconfig"; path = "Target Support Files/Pods-GonetAppTests/Pods-GonetAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1D261E115FDCB61B831C3787 /* Pods_GonetAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GonetAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E7047A02DD80031A518A01 /* Pods-GonetAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GonetAppTests.release.xcconfig"; path = "Target Support Files/Pods-GonetAppTests/Pods-GonetAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		88632B8422239717006B0F16 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		88908080221BC3BB00A3044D /* GonetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GonetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88908083221BC3BB00A3044D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88908085221BC3BB00A3044D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				88908083221BC3BB00A3044D /* AppDelegate.swift */,
 				88908085221BC3BB00A3044D /* ViewController.swift */,
 				88908087221BC3BB00A3044D /* Main.storyboard */,
+				88632B8422239717006B0F16 /* HomeViewController.swift */,
 				889080B6221BC41000A3044D /* LogIn */,
 				8890808D221BC3BD00A3044D /* Assets.xcassets */,
 				8890808F221BC3BD00A3044D /* LaunchScreen.storyboard */,
@@ -448,6 +451,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88632B8522239717006B0F16 /* HomeViewController.swift in Sources */,
 				889080B5221BC40B00A3044D /* LogInViewController.swift in Sources */,
 				88908086221BC3BB00A3044D /* ViewController.swift in Sources */,
 				88908084221BC3BB00A3044D /* AppDelegate.swift in Sources */,

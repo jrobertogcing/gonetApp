@@ -15,16 +15,18 @@ import FirebaseAuth
 
 class LogInViewController: UIViewController,GIDSignInUIDelegate {
 
-    @IBOutlet weak var gSignInButton: GIDSignInButton!
-    @IBOutlet weak var gSignInButton2: GIDSignInButton!
 
     @IBOutlet weak var googleSInButton: GIDSignInButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
       
         // TODO(developer) Configure the sign-in button look/feel
         // ...
+        
+        
     }
     
     @IBAction func gSignInButtonAction(_ sender: UIButton) {
