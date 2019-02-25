@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8234B948427E698A2F90DDE8 /* Pods_GonetAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E93C7130AF804F6327EF36 /* Pods_GonetAppUITests.framework */; };
 		88908084221BC3BB00A3044D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88908083221BC3BB00A3044D /* AppDelegate.swift */; };
 		88908086221BC3BB00A3044D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88908085221BC3BB00A3044D /* ViewController.swift */; };
 		88908089221BC3BB00A3044D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88908087221BC3BB00A3044D /* Main.storyboard */; };
@@ -16,6 +17,9 @@
 		8890809C221BC3BD00A3044D /* GonetAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8890809B221BC3BD00A3044D /* GonetAppTests.swift */; };
 		889080A7221BC3BD00A3044D /* GonetAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889080A6221BC3BD00A3044D /* GonetAppUITests.swift */; };
 		889080B5221BC40B00A3044D /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889080B4221BC40B00A3044D /* LogInViewController.swift */; };
+		889080BA221C943800A3044D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 889080B9221C943800A3044D /* GoogleService-Info.plist */; };
+		A294C773089CDA3AAEC1DF95 /* Pods_GonetApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B91DE092B34B398E59FDB196 /* Pods_GonetApp.framework */; };
+		E3F5D7C13C8EB1F11CF74C8F /* Pods_GonetAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D261E115FDCB61B831C3787 /* Pods_GonetAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		095DA7DB559169FA3B29A770 /* Pods-GonetApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GonetApp.debug.xcconfig"; path = "Target Support Files/Pods-GonetApp/Pods-GonetApp.debug.xcconfig"; sourceTree = "<group>"; };
+		0A2E476798897CA15EF324FE /* Pods-GonetAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GonetAppTests.debug.xcconfig"; path = "Target Support Files/Pods-GonetAppTests/Pods-GonetAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1D261E115FDCB61B831C3787 /* Pods_GonetAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GonetAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42E7047A02DD80031A518A01 /* Pods-GonetAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GonetAppTests.release.xcconfig"; path = "Target Support Files/Pods-GonetAppTests/Pods-GonetAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		88908080221BC3BB00A3044D /* GonetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GonetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88908083221BC3BB00A3044D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88908085221BC3BB00A3044D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +59,12 @@
 		889080A6221BC3BD00A3044D /* GonetAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GonetAppUITests.swift; sourceTree = "<group>"; };
 		889080A8221BC3BD00A3044D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		889080B4221BC40B00A3044D /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		889080B9221C943800A3044D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8DFE12211BC26FACC275361A /* Pods-GonetAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GonetAppUITests.release.xcconfig"; path = "Target Support Files/Pods-GonetAppUITests/Pods-GonetAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		924A04A6D6625D4FD933CA22 /* Pods-GonetApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GonetApp.release.xcconfig"; path = "Target Support Files/Pods-GonetApp/Pods-GonetApp.release.xcconfig"; sourceTree = "<group>"; };
+		9365A999643B17392BCAD2F7 /* Pods-GonetAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GonetAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-GonetAppUITests/Pods-GonetAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B91DE092B34B398E59FDB196 /* Pods_GonetApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GonetApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E93C7130AF804F6327EF36 /* Pods_GonetAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GonetAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A294C773089CDA3AAEC1DF95 /* Pods_GonetApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3F5D7C13C8EB1F11CF74C8F /* Pods_GonetAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +88,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8234B948427E698A2F90DDE8 /* Pods_GonetAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2027DE1F9ED8A83BDEF91944 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				095DA7DB559169FA3B29A770 /* Pods-GonetApp.debug.xcconfig */,
+				924A04A6D6625D4FD933CA22 /* Pods-GonetApp.release.xcconfig */,
+				0A2E476798897CA15EF324FE /* Pods-GonetAppTests.debug.xcconfig */,
+				42E7047A02DD80031A518A01 /* Pods-GonetAppTests.release.xcconfig */,
+				9365A999643B17392BCAD2F7 /* Pods-GonetAppUITests.debug.xcconfig */,
+				8DFE12211BC26FACC275361A /* Pods-GonetAppUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		88908077221BC3BB00A3044D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +115,8 @@
 				8890809A221BC3BD00A3044D /* GonetAppTests */,
 				889080A5221BC3BD00A3044D /* GonetAppUITests */,
 				88908081221BC3BB00A3044D /* Products */,
+				2027DE1F9ED8A83BDEF91944 /* Pods */,
+				892086E6DCEFA8CD7243BED1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +140,7 @@
 				8890808D221BC3BD00A3044D /* Assets.xcassets */,
 				8890808F221BC3BD00A3044D /* LaunchScreen.storyboard */,
 				88908092221BC3BD00A3044D /* Info.plist */,
+				889080B9221C943800A3044D /* GoogleService-Info.plist */,
 				8890808A221BC3BB00A3044D /* GonetApp.xcdatamodeld */,
 			);
 			path = GonetApp;
@@ -139,6 +172,16 @@
 			name = LogIn;
 			sourceTree = "<group>";
 		};
+		892086E6DCEFA8CD7243BED1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B91DE092B34B398E59FDB196 /* Pods_GonetApp.framework */,
+				1D261E115FDCB61B831C3787 /* Pods_GonetAppTests.framework */,
+				C1E93C7130AF804F6327EF36 /* Pods_GonetAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 889080AB221BC3BD00A3044D /* Build configuration list for PBXNativeTarget "GonetApp" */;
 			buildPhases = (
+				2808BCC3B73A1D72267711B3 /* [CP] Check Pods Manifest.lock */,
 				8890807C221BC3BB00A3044D /* Sources */,
 				8890807D221BC3BB00A3044D /* Frameworks */,
 				8890807E221BC3BB00A3044D /* Resources */,
+				DEC028B9EE2D6D6F2AF07187 /* [CP] Embed Pods Frameworks */,
+				553C5769B4180116BC20D559 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 889080AE221BC3BD00A3044D /* Build configuration list for PBXNativeTarget "GonetAppTests" */;
 			buildPhases = (
+				2CC3E786A065C64BB94D974B /* [CP] Check Pods Manifest.lock */,
 				88908093221BC3BD00A3044D /* Sources */,
 				88908094221BC3BD00A3044D /* Frameworks */,
 				88908095221BC3BD00A3044D /* Resources */,
@@ -181,6 +228,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 889080B1221BC3BD00A3044D /* Build configuration list for PBXNativeTarget "GonetAppUITests" */;
 			buildPhases = (
+				A7598524D1F8757CC42288A0 /* [CP] Check Pods Manifest.lock */,
 				8890809E221BC3BD00A3044D /* Sources */,
 				8890809F221BC3BD00A3044D /* Frameworks */,
 				889080A0221BC3BD00A3044D /* Resources */,
@@ -244,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88908091221BC3BD00A3044D /* LaunchScreen.storyboard in Resources */,
+				889080BA221C943800A3044D /* GoogleService-Info.plist in Resources */,
 				8890808E221BC3BD00A3044D /* Assets.xcassets in Resources */,
 				88908089221BC3BB00A3044D /* Main.storyboard in Resources */,
 			);
@@ -264,6 +313,135 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2808BCC3B73A1D72267711B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GonetApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CC3E786A065C64BB94D974B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GonetAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		553C5769B4180116BC20D559 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GonetApp/Pods-GonetApp-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GonetApp/Pods-GonetApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7598524D1F8757CC42288A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GonetAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEC028B9EE2D6D6F2AF07187 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GonetApp/Pods-GonetApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GonetApp/Pods-GonetApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8890807C221BC3BB00A3044D /* Sources */ = {
@@ -446,6 +624,7 @@
 		};
 		889080AC221BC3BD00A3044D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 095DA7DB559169FA3B29A770 /* Pods-GonetApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +643,7 @@
 		};
 		889080AD221BC3BD00A3044D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 924A04A6D6625D4FD933CA22 /* Pods-GonetApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -482,6 +662,7 @@
 		};
 		889080AF221BC3BD00A3044D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A2E476798897CA15EF324FE /* Pods-GonetAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -503,6 +684,7 @@
 		};
 		889080B0221BC3BD00A3044D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42E7047A02DD80031A518A01 /* Pods-GonetAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +706,7 @@
 		};
 		889080B2221BC3BD00A3044D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9365A999643B17392BCAD2F7 /* Pods-GonetAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -544,6 +727,7 @@
 		};
 		889080B3221BC3BD00A3044D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DFE12211BC26FACC275361A /* Pods-GonetAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

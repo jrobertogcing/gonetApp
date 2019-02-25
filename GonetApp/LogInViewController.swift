@@ -7,24 +7,34 @@
 //
 
 import UIKit
+import GoogleSignIn
+import Firebase
+import FirebaseAuth
 
-class LogInViewController: UIViewController {
 
+
+class LogInViewController: UIViewController,GIDSignInUIDelegate {
+
+    @IBOutlet weak var gSignInButton: GIDSignInButton!
+    @IBOutlet weak var gSignInButton2: GIDSignInButton!
+
+    @IBOutlet weak var googleSInButton: GIDSignInButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+      
+        // TODO(developer) Configure the sign-in button look/feel
+        // ...
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func gSignInButtonAction(_ sender: UIButton) {
+        
+        GIDSignIn.sharedInstance().uiDelegate = self
+        GIDSignIn.sharedInstance().signIn()
+        
+        
     }
-    */
+    
+  
 
 }
